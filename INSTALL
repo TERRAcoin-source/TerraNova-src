@@ -1,0 +1,5 @@
+Building terranovacoin
+
+See the folder "doc/" for instructions on building terranovacoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of terranovacoin.
