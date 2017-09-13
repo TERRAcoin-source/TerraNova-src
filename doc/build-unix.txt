@@ -20,30 +20,30 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 ### Dependencies:
 
-& sudo apt-get update
-& sudo apt-get install build-essential
-& sudo apt-get install libssl-dev
-& sudo apt-get install libdb++-dev
-& sudo apt-get install libboost-all-dev
-& sudo apt-get update
-& sudo apt-get upgrade
+ sudo apt-get update
+ sudo apt-get install build-essential
+ sudo apt-get install libssl-dev
+ sudo apt-get install libdb++-dev
+ sudo apt-get install libboost-all-dev
+ sudo apt-get update
+ sudo apt-get upgrade
 
 
 ###For Debian 9 (stretch) add libs:	
 
-& sudo aptitude install libssl1.0-dev
-& sudo aptitude install lib32z1-dev
-& sudo apt-get update
+ sudo aptitude install libssl1.0-dev
+ sudo aptitude install lib32z1-dev
+ sudo apt-get update
 
 
 ###Build terranovacoin:
 
-& cd src/
-& cd leveldb
-& chmod 755 *
-& cd ..
-& make -f makefile.unix
-& strip terranovacoind
+ cd src/
+ cd leveldb
+ chmod 755 *
+ cd ..
+ make -f makefile.unix
+ strip terranovacoind
 
 
 ### Versions used in this release:
