@@ -1,7 +1,7 @@
 src/*.exe
-src/bitconnect
-src/bitconnectd
-src/test_bitconnect
+src/terranova
+src/terranovad
+src/test_terranova
 src/build.h
 .*.swp
 *.*~*
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.bitconnect
+.terranova
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-bitconnect-qt
+terranova-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
